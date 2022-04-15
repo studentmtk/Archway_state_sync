@@ -102,5 +102,5 @@ journalctl -u archwayd -f
 ```  
 
 If necessary:
-After you catch up with the height of the network, " stop systemctl stop archwayd ", replace the file " $HOME/.umee/config/priv_validator_key.json " to your validator file and run " systemctl start umeed " again.
+After you catch up with the height of the network, " stop systemctl stop archwayd ", replace the file " $HOME/.archway/config/priv_validator_key.json " to your validator file and run " systemctl start archwayd " again.
   
