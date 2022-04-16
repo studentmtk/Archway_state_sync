@@ -46,7 +46,7 @@ function install_Software {
 	cd archway
 	git checkout v0.0.5
 	make install
-	archwayd init $ARCHWAY_MONIKER --chain-id torii-1
+	archwayd init $ARCHWAY_NODENAME --chain-id torii-1
 	wget -O /root/.archway/config/genesis.json https://raw.githubusercontent.com/archway-network/testnets/main/torii-1/genesis.json
 }
 
