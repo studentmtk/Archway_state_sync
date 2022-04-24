@@ -54,7 +54,7 @@ function state_sync {
 	systemctl stop archwayd
 	archwayd unsafe-reset-all
 	external_address=$(wget -qO- eth0.me)
-	peers="e7cf503eb59e22157647462a551fc1f7658430a7@89.163.151.226:26656"
+	peers="6e5d72ae11ad9ad780cdd082433048ab58167ff5@89.163.151.226:26656"
 	sed -i.bak -e "s/^external_address *=.*/external_address = \"$external_address:26656\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.archway/config/config.toml
 	sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0utorii\"/;" $HOME/.archway/config/app.toml
 
