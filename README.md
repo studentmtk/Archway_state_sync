@@ -8,7 +8,7 @@ bash Archway_state_sync.sh
 ```
 select  
 1 - complete installation of the environment on a new server and fast synchronization  
-2 - the server already has the umeed binary file, the network is initialized and you want to quickly catch up with the height of the network  
+2 - the server already has the archwayd binary file, the network is initialized and you want to quickly catch up with the height of the network  
 3 - exit the menu
 
 #### Manual installation
